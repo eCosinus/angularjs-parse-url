@@ -1,0 +1,26 @@
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+    <body>
+        <h3>Parse URL with AngularJS</h3>
+        <div ng-controller="appCtrl">
+            <label>Url :</label>
+            <input type="text" ng-model="url">
+            <ul>
+                <li>href = {{parser.href}}</li>
+                <li>protocol = {{parser.protocol}}</li>
+                <li>host = {{parser.host}}</li>
+                <li>hostname = {{parser.hostname}}</li>
+                <li>port = {{parser.port}}</li>
+                <li>pathname = {{parser.pathname}}</li>
+                <li>hash = {{parser.hash}}</li>
+                <li>search = {{parser.search}}</li>
+            </ul>
+        </div>
+    </body>
+</html>
