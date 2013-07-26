@@ -16,4 +16,4 @@ url: http://www.google.fr:8080?q=mysearch
     - hash =
     - search = ?q=mysearch
 ## Test
-[Demo](https://c9.io/cosinusweb/angularjs-parse-url/workspace/index.html)
+[Demo](https://c9.io/cosinusweb/angularjs-parse-url-demo/workspace/index.html)
